@@ -1,6 +1,6 @@
 # Weather App with Flutter
 
-This is a func weather app.
+This is a fun weather app.
 
 ## Getting Started
 
