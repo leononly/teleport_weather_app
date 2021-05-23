@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/leononly/Desktop/Projects/fun_weather_app/build/path_provider/intermediates/incremental/mergeReleaseResources/merged.dir/values-in/values-in.xml",
+            "map": [
+                {
+                    "source": "/Users/leononly/.gradle/caches/transforms-2/files-2.1/1223ac715635f24c2423df086c70155c/core-1.1.0/res/values-in/values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/leononly/Desktop/Projects/fun_weather_app/build/path_provider/intermediates/res/merged/release/values-in/values-in.xml",
+            "map": [
+                {
+                    "source": "/Users/leononly/.gradle/caches/transforms-2/files-2.1/1223ac715635f24c2423df086c70155c/core-1.1.0/res/values-in/values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

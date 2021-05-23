@@ -1,0 +1,136 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.weather.weatherApp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:49:5-66
+11-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:49:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:50:5-80
+12-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:50:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:51:5-79
+13-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:51:22-77
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:52:5-79
+14-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:52:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:53:5-81
+15-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:53:22-78
+16    <!--
+17     io.flutter.app.FlutterApplication is an android.app.Application that
+18         calls FlutterMain.startInitialization(this); in its onCreate method.
+19         In most cases you can leave this as-is, but you if you want to provide
+20         additional functionality it is fine to subclass or reimplement
+21         FlutterApplication and put your custom class here.
+22    -->
+23    <application
+23-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:9:5-47:19
+24        android:name="io.flutter.app.FlutterApplication"
+24-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:10:9-57
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.3.2] /Users/leononly/.gradle/caches/transforms-2/files-2.1/e2d68acf17b4ec249263d70ea11e850d/core-1.3.2/AndroidManifest.xml:24:18-86
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:12:9-43
+27        android:label="weather" >
+27-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:11:9-32
+28        <activity
+28-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:13:9-41:20
+29            android:name="com.weather.weatherApp.MainActivity"
+29-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:14:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:17:13-163
+31            android:hardwareAccelerated="true"
+31-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:18:13-47
+32            android:launchMode="singleTop"
+32-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:15:13-43
+33            android:theme="@style/LaunchTheme"
+33-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:16:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:19:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:24:13-27:17
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:25:15-70
+44                android:resource="@style/NormalTheme" />
+44-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:26:15-52
+45            <!--
+46                 Displays an Android View that continues showing the launch screen
+47                 Drawable until Flutter paints its first frame, then this splash
+48                 screen fades out. A splash screen is useful to avoid any visual
+49                 gap between the end of Android's launch screen and the painting of
+50                 Flutter's first frame.
+51            -->
+52            <meta-data
+52-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:33:13-36:17
+53                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+53-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:34:15-79
+54                android:resource="@drawable/launch_background" />
+54-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:35:15-61
+55
+56            <intent-filter>
+56-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:37:13-40:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:38:17-68
+57-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:38:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:39:17-76
+59-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:39:27-74
+60            </intent-filter>
+61        </activity>
+62        <!--
+63             Don't delete the meta-data below.
+64             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+65        -->
+66        <meta-data
+66-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:44:9-46:33
+67            android:name="flutterEmbedding"
+67-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:45:13-44
+68            android:value="2" />
+68-->/Users/leononly/Desktop/Projects/fun_weather_app/android/app/src/main/AndroidManifest.xml:46:13-30
+69
+70        <service
+70-->[:location] /Users/leononly/Desktop/Projects/fun_weather_app/build/location/intermediates/library_manifest/release/AndroidManifest.xml:11:9-15:56
+71            android:name="com.lyokone.location.FlutterLocationService"
+71-->[:location] /Users/leononly/Desktop/Projects/fun_weather_app/build/location/intermediates/library_manifest/release/AndroidManifest.xml:12:13-71
+72            android:enabled="true"
+72-->[:location] /Users/leononly/Desktop/Projects/fun_weather_app/build/location/intermediates/library_manifest/release/AndroidManifest.xml:13:13-35
+73            android:exported="false"
+73-->[:location] /Users/leononly/Desktop/Projects/fun_weather_app/build/location/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+74            android:foregroundServiceType="location" />
+74-->[:location] /Users/leononly/Desktop/Projects/fun_weather_app/build/location/intermediates/library_manifest/release/AndroidManifest.xml:15:13-53
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:16.0.1] /Users/leononly/.gradle/caches/transforms-2/files-2.1/ac98012953dd88c0991e7e93df7fbd2e/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:16.0.1] /Users/leononly/.gradle/caches/transforms-2/files-2.1/ac98012953dd88c0991e7e93df7fbd2e/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:16.0.1] /Users/leononly/.gradle/caches/transforms-2/files-2.1/ac98012953dd88c0991e7e93df7fbd2e/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:16.0.1] /Users/leononly/.gradle/caches/transforms-2/files-2.1/ac98012953dd88c0991e7e93df7fbd2e/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:16.0.1] /Users/leononly/.gradle/caches/transforms-2/files-2.1/0444e82c74f63db5504a9b656d432cf7/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:16.0.1] /Users/leononly/.gradle/caches/transforms-2/files-2.1/0444e82c74f63db5504a9b656d432cf7/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:16.0.1] /Users/leononly/.gradle/caches/transforms-2/files-2.1/0444e82c74f63db5504a9b656d432cf7/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+84    </application>
+85
+86</manifest>

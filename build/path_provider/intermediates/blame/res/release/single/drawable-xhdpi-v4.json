@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/leononly/Desktop/Projects/fun_weather_app/build/path_provider/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/leononly/.gradle/caches/transforms-2/files-2.1/1223ac715635f24c2423df086c70155c/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/leononly/Desktop/Projects/fun_weather_app/build/path_provider/intermediates/res/merged/release/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/leononly/.gradle/caches/transforms-2/files-2.1/1223ac715635f24c2423df086c70155c/core-1.1.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/leononly/Desktop/Projects/fun_weather_app/build/path_provider/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/leononly/.gradle/caches/transforms-2/files-2.1/1223ac715635f24c2423df086c70155c/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/leononly/Desktop/Projects/fun_weather_app/build/path_provider/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/leononly/.gradle/caches/transforms-2/files-2.1/1223ac715635f24c2423df086c70155c/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/leononly/Desktop/Projects/fun_weather_app/build/path_provider/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/leononly/.gradle/caches/transforms-2/files-2.1/1223ac715635f24c2423df086c70155c/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/leononly/Desktop/Projects/fun_weather_app/build/shared_preferences/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/leononly/.gradle/caches/transforms-2/files-2.1/1223ac715635f24c2423df086c70155c/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/leononly/Desktop/Projects/fun_weather_app/build/shared_preferences/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/leononly/.gradle/caches/transforms-2/files-2.1/1223ac715635f24c2423df086c70155c/core-1.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/leononly/Desktop/Projects/fun_weather_app/build/shared_preferences/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/leononly/.gradle/caches/transforms-2/files-2.1/1223ac715635f24c2423df086c70155c/core-1.1.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/leononly/Desktop/Projects/fun_weather_app/build/shared_preferences/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/leononly/.gradle/caches/transforms-2/files-2.1/1223ac715635f24c2423df086c70155c/core-1.1.0/res/drawable/notification_bg_low.xml"
+    }
+]
