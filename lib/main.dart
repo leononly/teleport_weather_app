@@ -42,7 +42,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  // WeatherBloc weatherBloc;
   WeatherCubit weatherCubit;
 
   @override
@@ -50,7 +49,6 @@ class _MyAppState extends State<MyApp> {
     // TODO: implement initState
     super.initState();
 
-    // weatherBloc = WeatherBloc();
     weatherCubit = WeatherCubit();
   }
 

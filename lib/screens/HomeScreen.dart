@@ -17,7 +17,6 @@ class _MyHomePageState extends State<HomeScren>
   GlobalKey<AnimatedListState> listKey = GlobalKey<AnimatedListState>();
   GlobalKey<ScaffoldState> _key = new GlobalKey<ScaffoldState>();
 
-  // weatherCubit weatherCubit;
   WeatherCubit weatherCubit;
 
   TabController _tabController;
@@ -29,13 +28,9 @@ class _MyHomePageState extends State<HomeScren>
     // TODO: implement initState
     super.initState();
 
-    // weatherCubit = BlocProvider.of<weatherCubit>(context);
     weatherCubit = BlocProvider.of<WeatherCubit>(context);
 
-//    weatherCubit.add(FetchLocation());
-
     weatherCubit.appStart();
-    // weatherCubit.add(AppStart());
 
     _tabController = TabController(initialIndex: 0, length: 2, vsync: this);
   }
@@ -125,7 +120,6 @@ class _MyHomePageState extends State<HomeScren>
     Size media = MediaQuery.of(context).size;
 
     return Container(
-//        height: MediaQuery.of(context).size.height,
       width: MediaQuery.of(context).size.width,
       decoration: BoxDecoration(
           gradient: LinearGradient(
