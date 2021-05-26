@@ -4,7 +4,6 @@ import 'package:weather/bloc/weatherCubit/weather_cubit.dart';
 import 'package:weather/services/helper.dart';
 import 'package:weather_icons/weather_icons.dart';
 
-// import '../bloc/weather/bloc.dart';
 import 'CitiesScreen.dart';
 
 class HomeScren extends StatefulWidget {
@@ -130,7 +129,6 @@ class _MyHomePageState extends State<HomeScren>
             Colors.blue,
             Colors.lightBlue,
             Colors.lightBlue,
-//                  Colors.white
           ])),
       child: state is WeatherLoading
           ? Center(child: CircularProgressIndicator())
